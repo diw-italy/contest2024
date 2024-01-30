@@ -20,8 +20,7 @@ function validateForm() {
     }
 
     // Validate checkboxes
-    if (!document.forms["RegisterIndustryContest"]["acceptRegulations"].checked ||
-        !document.forms["RegisterIndustryContest"]["acceptPrivacy"].checked) {
+    if (!document.forms["RegisterIndustryContest"]["acceptRegulationsAndPolicies"].checked) {
         alert("You must agree to the contest regulations and privacy policy");
         return false;
     }
